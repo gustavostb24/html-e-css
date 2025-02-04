@@ -12,15 +12,21 @@
             table{
                   width: 500px;
                   border-collapse: collapse;
+                  position: relative;
             }
 
+            thead > tr > th{
+                  position: sticky;
+                  top: -1px;
+                  background-color: grey ;
+            }
             td, th{
                   border: 1px solid black;
                   padding: 10px;
             }
 
             .populacao{
-                  width: 50px;
+                  width: 100px;
             }
 
             thead, tfoot{
@@ -28,6 +34,9 @@
                   color: white;
             }
 
+            tbody > tr:nth-child(2n){
+                  background-color: lightgray;
+            }
             .num{
                   text-align: right;
             }
