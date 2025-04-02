@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Formulários novabente</title>
+      
+</head>
+<body>
+      <h1>Exemplo de Formulário</h1>
+     
+      <form action="cadastro.php" method="get" autocomplete="on">
+            <fieldset>
+                  <legend>Sexo</legend>
+                  <input type="radio" name="sexo" id="imasc"> <label for="imasc">Masculino</label><br>
+                  <input type="radio" name="sexo" id="ifem"> <label for="ifem">Feminino</label><br>
+                  <input type="radio" name="sexo" id="ioutro"> <label for="ioutro">Outro</label><br>
+            </fieldset>
+            <fieldset>
+                  <legend>Esportes Favoritos</legend>
+                  <input type="checkbox" name="fut" id="ifut" ><label for="ifut">Futebol</label><br>
+                  <input type="checkbox" name="volei" id="ivolei" > <label for="ivolei">Voleibol</label><br>
+                  <input type="checkbox" name="natacao" id="iswin"> <label for="iswin">Natação</label><br>
+                  <input type="checkbox" name="tenis" id="itenis"> <label for="itenis">Tênis</label><br>  
+                  
+
+
+            </fieldset>
+            
+
+            <p>
+                  <input type="submit" value="Enviar" name="enviar" id="enviar">
+                  <input type="reset" value="Limpar" name="limpar" id="limpar">
+            </p>
+      </form>
+      
+</body>
+</html>
