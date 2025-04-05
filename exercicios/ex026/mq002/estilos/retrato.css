@@ -1,2 +1,12 @@
 @charset "UTF-8";
-/* EStilo para o retrato (em pé)*/
+/* EStilo para o retrato portrait(em pé)*/
+
+
+body{
+      background-image: url('../imagens/cev-portrait.jpg');
+      background-position: left bottom;
+      
+      
+
+      
+}      
